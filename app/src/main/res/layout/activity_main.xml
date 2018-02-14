@@ -20,13 +20,14 @@
       app:srcCompat="@drawable/face_1"/>
 
     <TextView
-      android:id="@+id/textView"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:gravity="center"
-      android:text="---- ------"
-      android:textSize="32dp"
-      android:typeface="monospace"/>
+        android:id="@+id/txtWordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="---- ------"
+        android:textSize="32dp"
+        android:typeface="monospace" />
 
     <LinearLayout
       android:layout_width="match_parent"
@@ -41,76 +42,88 @@
         android:orientation="horizontal">
 
         <TextView
-          android:id="@+id/txt_f"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="F"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_f"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="f"
+            android:text="F"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_e"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="E"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_e"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="e"
+            android:text="E"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_d"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="D"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_d"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="d"
+            android:text="D"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_c"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="C"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_c"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="c"
+            android:text="C"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_b"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="B"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_b"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="b"
+            android:text="B"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_a"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="A"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_a"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="a"
+            android:text="A"
+            android:textSize="28dp"
+            android:typeface="monospace" />
       </LinearLayout>
 
       <LinearLayout
@@ -121,76 +134,88 @@
         android:orientation="horizontal">
 
         <TextView
-          android:id="@+id/txt_l"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="L"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_l"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="l"
+            android:text="L"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_k"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="K"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_k"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="k"
+            android:text="K"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_j"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="J"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_j"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="j"
+            android:text="J"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_i"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="I"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_i"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="i"
+            android:text="I"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_h"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="H"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_h"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="h"
+            android:text="H"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_g"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="G"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_g"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="g"
+            android:text="G"
+            android:textSize="28dp"
+            android:typeface="monospace" />
       </LinearLayout>
 
       <LinearLayout
@@ -201,76 +226,88 @@
         android:orientation="horizontal">
 
         <TextView
-          android:id="@+id/txt_r"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="R"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_r"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="r"
+            android:text="R"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_q"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="Q"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_q"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="q"
+            android:text="Q"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_p"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="P"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_p"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="p"
+            android:text="P"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_o"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="O"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_o"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="o"
+            android:text="O"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_n"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="N"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_n"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="n"
+            android:text="N"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_m"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="M"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_m"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="m"
+            android:text="M"
+            android:textSize="28dp"
+            android:typeface="monospace" />
       </LinearLayout>
 
       <LinearLayout
@@ -281,76 +318,88 @@
         android:orientation="horizontal">
 
         <TextView
-          android:id="@+id/txt_x"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="X"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_x"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="x"
+            android:text="X"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_w"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="W"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_w"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="w"
+            android:text="W"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_v"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="V"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_v"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="v"
+            android:text="V"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_u"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="U"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_u"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="u"
+            android:text="U"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_t"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="T"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_t"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="t"
+            android:text="T"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_s"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="S"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_s"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="s"
+            android:text="S"
+            android:textSize="28dp"
+            android:typeface="monospace" />
       </LinearLayout>
 
       <LinearLayout
@@ -361,72 +410,76 @@
         android:orientation="horizontal">
 
         <TextView
-          android:id="@+id/textView12"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#00000000"
-          android:gravity="center"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/textView11"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#00000000"
-          android:gravity="center"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/textView10"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#00000000"
-          android:gravity="center"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/textView10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/textView9"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#00000000"
-          android:gravity="center"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_z"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="Z"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_z"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="z"
+            android:text="Z"
+            android:textSize="28dp"
+            android:typeface="monospace" />
 
         <TextView
-          android:id="@+id/txt_y"
-          android:layout_width="0dp"
-          android:layout_height="match_parent"
-          android:layout_margin="2dp"
-          android:layout_weight="1"
-          android:background="#444"
-          android:gravity="center"
-          android:text="Y"
-          android:textSize="28dp"
-          android:typeface="monospace"/>
+            android:id="@+id/txt_y"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="#444"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:tag="y"
+            android:text="Y"
+            android:textSize="28dp"
+            android:typeface="monospace" />
       </LinearLayout>
     </LinearLayout>
   </LinearLayout>
