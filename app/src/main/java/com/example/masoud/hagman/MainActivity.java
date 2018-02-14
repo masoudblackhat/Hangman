@@ -17,6 +17,11 @@ TextView txtWordView;
     int c=2;
 
     int g=0;
+
+
+    int y=52;
+
+
   }
   public void onClick(View view){
     String letter=view.getTag().toString();
