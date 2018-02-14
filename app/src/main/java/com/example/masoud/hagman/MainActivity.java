@@ -15,11 +15,16 @@ TextView txtWordView;
 
     int a=0;
     int c=2;
+
+    int g=0;
   }
   public void onClick(View view){
     String letter=view.getTag().toString();
 
       txtWordView.setText(letter);
+
+
+
 
   }
 }
