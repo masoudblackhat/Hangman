@@ -24,9 +24,9 @@ TextView txtWordView;
 
   }
   public void onClick(View view){
-    String letter=view.getTag().toString();
+     String letter = view.getTag().toString();
 
-      txtWordView.setText(letter);
+      txtWordView.setText(letter + "Yusuf Zinsaz");
 
 
 
