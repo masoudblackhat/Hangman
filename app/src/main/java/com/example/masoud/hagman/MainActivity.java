@@ -30,5 +30,9 @@ TextView txtWordView;
     Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
     Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
     Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
+    Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
+    Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
+    Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
+    Toast.makeText(this, "Erro ", Toast.LENGTH_SHORT).show();
   }
 }
